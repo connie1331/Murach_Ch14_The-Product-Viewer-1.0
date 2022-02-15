@@ -1,0 +1,19 @@
+# Author:           Joel Murach
+# Lab:              The Product Viewer 1.0 Program
+# Date:             02.15.2022
+# Sources:          Murach's Python Programming - Beginner
+                    Chapter 14_ How to define and use your own classes
+                    Example: The Product Viewer 1.0 program
+# Description:
+
+    This is an example from Murach's Python textbook I use for practice. The program Product Viewer 1.0
+use objects created from a Product class. This program displays a numbered lis of three product. Then, the user can view
+the data for a product by entering its number.
+
+    The Product class is stored in module named objects (objects.py). This code defines a constructor that initializes
+the attributes that store the name, price, and discount percent for the object. Then, it defines two methods that get
+the discount amount and price for the object.
+
+    The product_viewer (product_viewer.py) contains the main code of the program. . This code imports the Products class
+from the objects module. Then, this code defines functions that make up the program
+
